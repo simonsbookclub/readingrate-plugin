@@ -1,0 +1,13 @@
+{
+  "name": "readingrate-books",
+  "version": "1.0.0",
+  "description": "ReadingRate's book catalog and reading tracker in Claude: difficulty scores, reading times and ranked lists for any book, and the reader's own library, reading log, quotes and book clubs, with skills for a shelf photo, logging reading from a sentence, choosing the next book, where to start with a literature, a post-book debrief and book club prep.",
+  "author": {
+    "name": "Simon Stawski",
+    "url": "https://readingrate.com"
+  },
+  "homepage": "https://readingrate.com",
+  "repository": "https://github.com/simonsbookclub/readingrate-plugin",
+  "license": "MIT",
+  "keywords": ["books", "reading", "reading tracker", "literature", "book club"]
+}

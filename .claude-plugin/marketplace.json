@@ -1,0 +1,15 @@
+{
+  "name": "readingrate",
+  "description": "ReadingRate's plugin: the book catalog, the reader's library and reading log, and skills for both.",
+  "owner": {
+    "name": "Simon Stawski",
+    "url": "https://readingrate.com"
+  },
+  "plugins": [
+    {
+      "name": "readingrate-books",
+      "source": "./",
+      "description": "ReadingRate's book catalog and reading tracker in Claude: difficulty scores, reading times and ranked lists for any book, and the reader's own library, reading log, quotes and book clubs, with skills for a shelf photo, logging reading from a sentence, choosing the next book, where to start with a literature, a post-book debrief and book club prep."
+    }
+  ]
+}
