@@ -1,6 +1,6 @@
 # ReadingRate
 
-ReadingRate's book catalog and reading tracker, for Claude and ChatGPT. The plugin connects the ReadingRate server (https://mcp.readingrate.com/mcp) and adds six skills that walk an assistant through the things readers ask for most.
+ReadingRate's book catalog and reading tracker, for Claude, ChatGPT, Gemini CLI and Cursor. The plugin connects the ReadingRate server (https://mcp.readingrate.com/mcp) and adds six skills that walk an assistant through the things readers ask for most.
 
 | Skill | What it does | Account |
 |---|---|---|
@@ -21,6 +21,18 @@ Privacy policy: https://readingrate.com/privacy. Support: https://readingrate.co
 /plugin marketplace add simonsbookclub/readingrate-plugin
 /plugin install readingrate-books@readingrate
 ```
+
+## Install in Gemini CLI
+
+```
+gemini extensions install https://github.com/simonsbookclub/readingrate-plugin
+```
+
+Sign in with `/mcp auth readingrate`, or when Gemini asks the first time a tool needs your account.
+
+## Any other app
+
+Add the server address https://mcp.readingrate.com/mcp as a remote (Streamable HTTP) MCP server. It signs in with OAuth, so there is no key to copy. The server is listed in the MCP Registry as `com.readingrate/readingrate`.
 
 ## License
 

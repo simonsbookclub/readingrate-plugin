@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "readingrate-books": {
+      "url": "https://mcp.readingrate.com/mcp"
+    }
+  }
+}

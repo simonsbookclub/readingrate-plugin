@@ -1,0 +1,11 @@
+{
+  "name": "readingrate",
+  "version": "1.0.1",
+  "description": "ReadingRate's book catalog and reading tracker, with six reading skills.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "readingrate": {
+      "httpUrl": "https://mcp.readingrate.com/mcp"
+    }
+  }
+}

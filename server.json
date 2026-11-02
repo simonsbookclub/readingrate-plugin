@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.readingrate/readingrate",
+  "title": "ReadingRate",
+  "description": "Book difficulty, reading times and ranked lists, plus your reading log, quotes and clubs.",
+  "version": "1.0.1",
+  "websiteUrl": "https://readingrate.com",
+  "repository": {
+    "url": "https://github.com/simonsbookclub/readingrate-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://readingrate.com/icons/connector-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.readingrate.com/mcp"
+    }
+  ]
+}
